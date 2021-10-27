@@ -59,4 +59,4 @@ def pokemon():
         return render_template('pokemon.html.j2', pokemon=pokemon_info, form=form)     
         
 
-    return render_template('pokemon.html.j2')
+    return render_template('pokemon.html.j2', form=form)
